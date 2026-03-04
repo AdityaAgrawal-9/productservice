@@ -15,8 +15,8 @@ import java.util.*;
 @RestController
 @RequestMapping("/products")
 public class ProductController {
-    @Value("${productServiceType}")
-    private String productServiceType;
+//    @Value("${productServiceType}")
+//    private String productServiceType;
 
     //@Qualifier()
     private ProductService productService;
